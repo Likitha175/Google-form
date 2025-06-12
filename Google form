@@ -1,0 +1,199 @@
+#google form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Google Form</h1>
+    <!-- Create Form -->
+    <form id="form">
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <!-- Input type text -->
+            <input type="text" id="name" placeholder="Enter your full name">
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">Email</label>
+            <input type="email" id="email" placeholder="Enter your email id">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Institute/University</label>
+            <select name="role" id="role">
+                <option value=""></option>
+                <option value="Yogi vemana university">YOGI VEMANA UNIVERSITY</option>
+                <option value="cambridge university">CAMBRIDGE UNIVERSITY</option>
+                <option value="Jnt university">JNT UNIVERSITY</option>
+                <option value="S.V university">S.V UNIVERSITY</option>
+                <option value="padmavathi university">PADMAVATHI UNIVERSITY</option>
+                <option value="Adhikavi nanaiah university">ADHIKAVI NANAIAH UNIVERSITY</option>
+                <option value="Andhra university">ANDHRA UNIVERSITY</option>
+                <option value="Nagarjuna university">NAGARJUNA UNIVERSITY</option>
+                <option value="Kl university">KL UNIVERSITY</option>
+                <option value=" Sri Venkateswara university">SRI VENKATESWARA UNIVERSITY</option>
+                <option value="others">OTHERS</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">Year of passing</label>
+            <input type="year of passing" id="year of passing" placeholder="Enter your year of passing">
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">Percentage/Marks</label>
+            <input type="percentage" id="percentage" placeholder="Enter your Percentage/Marks">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Course name</label>
+            <select name="role" id="role">
+                <option value=""></option>
+                 <option value="B.Sc">B.Sc</option>
+                 <option value="B.Com">B.Com</option>
+                 <option value="B.Zc">B.Zc</option>
+                 <option value="BA">BA</option>
+                 <option value="HA">HA</option>
+                 <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+          <label>Gender</label>
+          <label for="recommed-1">
+            <input type="radio" id="recommed-1" name="recommed">Female</input>
+          </label>
+          <label for="recommed-2">
+            <input type="radio" id="recommed-2" name="recommed">Male</input>
+          </label>
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">Date-of-Birth</label>
+            <input type="Date-of-Birth" id="Date-of-Birth" placeholder="Enter your Date-of-Birth"
+        </div>
+        <div class="form-control"><br>
+            <label for="role" id="label-role">City</label>
+            <select type="role" id="role">
+                <option value=""></option>
+                <option value="surat">SURAT</option>
+                <option value="mumbai">MUMBAI</option>
+                <option value="delhi">DELHI</option>
+                <option value="kolkata">KOLKATA</option>
+                <option value="pune">PUNE</option>
+                <option value="Ahmedabad">AHMEDABAD</option>
+                <option value="chennai">CHENNAI</option>
+                <option value="bangalore">BANGALORE</option>
+                <option value="srikakulam">SRIKAKULAM</option>
+                <option value="vijaywada">VIJAYWADA</option>
+                <option value="vizag">VIZAG</option>
+                <option value="hyderabad">HYDERABAD</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">States</label>
+                <select type="role" id="role">
+                    <option value=""></option>
+                    <option value="Telangana">TELANGANA</option>
+                    <option value="Karnataka">KARNATAKA</option>
+                    <option value="Tamilnadu">TAMILNADU</option>
+                    <option value="Kerala">KERALA</option>
+                    <option value="Goa">GOA</option>
+                    <option value="Andhra pradesh">ANDHRA PRADESH</option>
+                </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">Countries</label>
+            <select type="role" id="role">
+                <option value=""></option>
+                <option value="india">INDIA</option>
+                <option value="us">US</option>
+                <option value="australia">AUSTRALIA</option>
+                <option value="canada">CANADA</option>
+                <option value="germany">GERMANY</option>
+                <option value="africa">AFRICA</option>
+                <option value="asia">ASIA</option>
+                <option value="switzerland">SWITZERLAND</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="name" id="label-name">Address</label>
+            <input type="Address" id="Address" placeholder="Enter your Address">
+        </div>
+        <div class="form-control">
+            <label>Languages and Frameworks Known</label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">SAP</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">FULL STACK PYTHON</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">FULL STACK JAVA</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">ANGULAR</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">DATA ANALYTICS</input>
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">.NET</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="Comment">Any Comment Or Suggestions</label>
+            <textarea name="Comment" id="Comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <button type="submit" value="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
+
+body{
+    background-color: greenyellow;
+    font-family: verdana;
+    text-align: center;
+}
+form{
+    background-color: dimgrey;
+    max-width: 500px;
+    margin: 56px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+}
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea{
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control input[type="radio"]
+.form-control input[type="checkbox"] {
+    display: inline;
+    width: auto;
+}
+button{
+    background-color: darkmagenta;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
